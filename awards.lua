@@ -611,7 +611,7 @@ if minetest.get_modpath("default") then
 	awards.register_award("awards_gold_ore", {
 		title = S("First Gold Find"),
 		description = S("Mine your first gold ore."),
-		prizes = {"default:gold 5"},
+		prizes = {"default:gold_lump 5"},
 		icon = "awards_first_gold_find.png^awards_level1.png",
 		hud_background = "awards_bg_mining.png",
 		difficulty = 0.9,
